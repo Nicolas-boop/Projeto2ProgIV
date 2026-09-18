@@ -296,7 +296,7 @@
 </COLUMN>
 </COLUMNS>
 <RELATIONS_START>
-<RELATION_START ID="1191" />
+<RELATION_START ID="1216" />
 </RELATIONS_START>
 <INDICES>
 <INDEX ID="1003" IndexName="PRIMARY" IndexKind="0" FKRefDef_Obj_id="-1">
@@ -329,7 +329,7 @@
 </COLUMN>
 </COLUMNS>
 <RELATIONS_START>
-<RELATION_START ID="1198" />
+<RELATION_START ID="1213" />
 </RELATIONS_START>
 <INDICES>
 <INDEX ID="1009" IndexName="PRIMARY" IndexKind="0" FKRefDef_Obj_id="-1">
@@ -372,7 +372,7 @@
 </COLUMN>
 </COLUMNS>
 <RELATIONS_START>
-<RELATION_START ID="1192" />
+<RELATION_START ID="1210" />
 </RELATIONS_START>
 <INDICES>
 <INDEX ID="1034" IndexName="PRIMARY" IndexKind="0" FKRefDef_Obj_id="-1">
@@ -382,38 +382,44 @@
 </INDEX>
 </INDICES>
 </TABLE>
-<TABLE ID="1190" Tablename="macnicolas_has_lednicolas" PrevTableName="" XPos="631" YPos="393" TableType="0" TablePrefix="0" nmTable="1" Temporary="0" UseStandardInserts="0" StandardInserts="\n" TableOptions="DelayKeyTblUpdates=0\nPackKeys=0\nRowChecksum=0\nRowFormat=0\nUseRaid=0\nRaidType=0\n" Comments="" Collapsed="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="5" >
+<TABLE ID="1206" Tablename="combinanicolas" PrevTableName="Table_08" XPos="648" YPos="411" TableType="0" TablePrefix="0" nmTable="0" Temporary="0" UseStandardInserts="0" StandardInserts="\n" TableOptions="DelayKeyTblUpdates=0\nPackKeys=0\nRowChecksum=0\nRowFormat=0\nUseRaid=0\nRaidType=0\n" Comments="" Collapsed="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="5" >
 <COLUMNS>
-<COLUMN ID="1193" ColName="macnicolas_idmacnicolas" PrevColName="" Pos="1" idDatatype="20" DatatypeParams="(17)" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
-<OPTIONSELECTED>
-<OPTIONSELECT Value="0" />
-</OPTIONSELECTED>
-</COLUMN>
-<COLUMN ID="1195" ColName="lednicolas_idlednicolas" PrevColName="" Pos="1" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
+<COLUMN ID="1208" ColName="idcombinanicolas" PrevColName="" Pos="0" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="1" NotNull="1" AutoInc="1" IsForeignKey="0" DefaultValue="" Comments="">
 <OPTIONSELECTED>
 <OPTIONSELECT Value="1" />
 <OPTIONSELECT Value="0" />
 </OPTIONSELECTED>
 </COLUMN>
-<COLUMN ID="1199" ColName="painelnicolas_idpainelnicolas" PrevColName="" Pos="1" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="0" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
+<COLUMN ID="1211" ColName="lednicolas_idlednicolas" PrevColName="" Pos="1" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="0" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
 <OPTIONSELECTED>
 <OPTIONSELECT Value="1" />
 <OPTIONSELECT Value="0" />
 </OPTIONSELECTED>
 </COLUMN>
-<COLUMN ID="1202" ColName="ledr" PrevColName="" Pos="3" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="0" NotNull="0" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="">
+<COLUMN ID="1214" ColName="painelnicolas_idpainelnicolas" PrevColName="" Pos="1" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="0" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
 <OPTIONSELECTED>
 <OPTIONSELECT Value="1" />
 <OPTIONSELECT Value="0" />
 </OPTIONSELECTED>
 </COLUMN>
-<COLUMN ID="1203" ColName="ledg" PrevColName="" Pos="4" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="0" NotNull="0" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="">
+<COLUMN ID="1217" ColName="macnicolas_idmacnicolas" PrevColName="" Pos="1" idDatatype="20" DatatypeParams="(17)" Width="-1" Prec="-1" PrimaryKey="0" NotNull="1" AutoInc="0" IsForeignKey="1" DefaultValue="" Comments="">
+<OPTIONSELECTED>
+<OPTIONSELECT Value="0" />
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1221" ColName="ledr" PrevColName="" Pos="4" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="0" NotNull="0" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="">
 <OPTIONSELECTED>
 <OPTIONSELECT Value="1" />
 <OPTIONSELECT Value="0" />
 </OPTIONSELECTED>
 </COLUMN>
-<COLUMN ID="1204" ColName="ledb" PrevColName="" Pos="5" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="0" NotNull="0" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="">
+<COLUMN ID="1222" ColName="ledg" PrevColName="" Pos="5" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="0" NotNull="0" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="">
+<OPTIONSELECTED>
+<OPTIONSELECT Value="1" />
+<OPTIONSELECT Value="0" />
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1223" ColName="ledb" PrevColName="" Pos="6" idDatatype="5" DatatypeParams="" Width="-1" Prec="-1" PrimaryKey="0" NotNull="0" AutoInc="0" IsForeignKey="0" DefaultValue="" Comments="">
 <OPTIONSELECTED>
 <OPTIONSELECT Value="1" />
 <OPTIONSELECT Value="0" />
@@ -421,39 +427,38 @@
 </COLUMN>
 </COLUMNS>
 <RELATIONS_END>
-<RELATION_END ID="1191" />
-<RELATION_END ID="1192" />
-<RELATION_END ID="1198" />
+<RELATION_END ID="1210" />
+<RELATION_END ID="1213" />
+<RELATION_END ID="1216" />
 </RELATIONS_END>
 <INDICES>
-<INDEX ID="1197" IndexName="PRIMARY" IndexKind="0" FKRefDef_Obj_id="-1">
+<INDEX ID="1209" IndexName="PRIMARY" IndexKind="0" FKRefDef_Obj_id="-1">
 <INDEXCOLUMNS>
-<INDEXCOLUMN idColumn="1193" LengthParam="0" />
-<INDEXCOLUMN idColumn="1195" LengthParam="0" />
+<INDEXCOLUMN idColumn="1208" LengthParam="0" />
 </INDEXCOLUMNS>
 </INDEX>
-<INDEX ID="1194" IndexName="macnicolas_has_lednicolas_FKIndex1" IndexKind="1" FKRefDef_Obj_id="1191">
+<INDEX ID="1212" IndexName="combinanicolas_FKIndex1" IndexKind="1" FKRefDef_Obj_id="1210">
 <INDEXCOLUMNS>
-<INDEXCOLUMN idColumn="1193" LengthParam="0" />
+<INDEXCOLUMN idColumn="1211" LengthParam="0" />
 </INDEXCOLUMNS>
 </INDEX>
-<INDEX ID="1196" IndexName="macnicolas_has_lednicolas_FKIndex2" IndexKind="1" FKRefDef_Obj_id="1192">
+<INDEX ID="1215" IndexName="combinanicolas_FKIndex2" IndexKind="1" FKRefDef_Obj_id="1213">
 <INDEXCOLUMNS>
-<INDEXCOLUMN idColumn="1195" LengthParam="0" />
+<INDEXCOLUMN idColumn="1214" LengthParam="0" />
 </INDEXCOLUMNS>
 </INDEX>
-<INDEX ID="1200" IndexName="macnicolas_has_lednicolas_FKIndex3" IndexKind="1" FKRefDef_Obj_id="1198">
+<INDEX ID="1218" IndexName="combinanicolas_FKIndex3" IndexKind="1" FKRefDef_Obj_id="1216">
 <INDEXCOLUMNS>
-<INDEXCOLUMN idColumn="1199" LengthParam="0" />
+<INDEXCOLUMN idColumn="1217" LengthParam="0" />
 </INDEXCOLUMNS>
 </INDEX>
 </INDICES>
 </TABLE>
 </TABLES>
 <RELATIONS>
-<RELATION ID="1191" RelationName="Rel_10" Kind="1" SrcTable="1000" DestTable="1190" FKFields="idmacnicolas=macnicolas_idmacnicolas\n" FKFieldsComments="\n" relDirection="3" MidOffset="0" OptionalStart="0" OptionalEnd="0" CaptionOffsetX="0" CaptionOffsetY="0" StartIntervalOffsetX="0" StartIntervalOffsetY="0" EndIntervalOffsetX="0" EndIntervalOffsetY="0" CreateRefDef="1" Invisible="0" RefDef="Matching=0\nOnDelete=3\nOnUpdate=3\n" Comments="" FKRefDefIndex_Obj_id="1194" Splitted="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="6" />
-<RELATION ID="1192" RelationName="Rel_11" Kind="1" SrcTable="1031" DestTable="1190" FKFields="idlednicolas=lednicolas_idlednicolas\n" FKFieldsComments="\n" relDirection="2" MidOffset="0" OptionalStart="0" OptionalEnd="0" CaptionOffsetX="0" CaptionOffsetY="0" StartIntervalOffsetX="0" StartIntervalOffsetY="0" EndIntervalOffsetX="0" EndIntervalOffsetY="0" CreateRefDef="1" Invisible="0" RefDef="Matching=0\nOnDelete=3\nOnUpdate=3\n" Comments="" FKRefDefIndex_Obj_id="1196" Splitted="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="7" />
-<RELATION ID="1198" RelationName="Rel_12" Kind="2" SrcTable="1006" DestTable="1190" FKFields="idpainelnicolas=painelnicolas_idpainelnicolas\n" FKFieldsComments="\n" relDirection="4" MidOffset="0" OptionalStart="0" OptionalEnd="0" CaptionOffsetX="0" CaptionOffsetY="0" StartIntervalOffsetX="0" StartIntervalOffsetY="0" EndIntervalOffsetX="0" EndIntervalOffsetY="0" CreateRefDef="1" Invisible="0" RefDef="Matching=0\nOnDelete=3\nOnUpdate=3\n" Comments="" FKRefDefIndex_Obj_id="1200" Splitted="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="8" />
+<RELATION ID="1210" RelationName="Rel_13" Kind="2" SrcTable="1031" DestTable="1206" FKFields="idlednicolas=lednicolas_idlednicolas\n" FKFieldsComments="\n" relDirection="2" MidOffset="0" OptionalStart="0" OptionalEnd="0" CaptionOffsetX="0" CaptionOffsetY="0" StartIntervalOffsetX="0" StartIntervalOffsetY="0" EndIntervalOffsetX="0" EndIntervalOffsetY="0" CreateRefDef="1" Invisible="0" RefDef="Matching=0\nOnDelete=3\nOnUpdate=3\n" Comments="" FKRefDefIndex_Obj_id="1212" Splitted="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="6" />
+<RELATION ID="1213" RelationName="Rel_14" Kind="2" SrcTable="1006" DestTable="1206" FKFields="idpainelnicolas=painelnicolas_idpainelnicolas\n" FKFieldsComments="\n" relDirection="4" MidOffset="0" OptionalStart="0" OptionalEnd="0" CaptionOffsetX="0" CaptionOffsetY="0" StartIntervalOffsetX="0" StartIntervalOffsetY="0" EndIntervalOffsetX="0" EndIntervalOffsetY="0" CreateRefDef="1" Invisible="0" RefDef="Matching=0\nOnDelete=3\nOnUpdate=3\n" Comments="" FKRefDefIndex_Obj_id="1215" Splitted="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="7" />
+<RELATION ID="1216" RelationName="Rel_15" Kind="2" SrcTable="1000" DestTable="1206" FKFields="idmacnicolas=macnicolas_idmacnicolas\n" FKFieldsComments="\n" relDirection="3" MidOffset="0" OptionalStart="0" OptionalEnd="0" CaptionOffsetX="0" CaptionOffsetY="0" StartIntervalOffsetX="0" StartIntervalOffsetY="0" EndIntervalOffsetX="0" EndIntervalOffsetY="0" CreateRefDef="1" Invisible="0" RefDef="Matching=0\nOnDelete=3\nOnUpdate=3\n" Comments="" FKRefDefIndex_Obj_id="1218" Splitted="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="8" />
 </RELATIONS>
 <NOTES>
 </NOTES>
